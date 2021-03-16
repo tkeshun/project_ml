@@ -2,34 +2,35 @@
 
 コードが散乱した実験環境から整理された実験環境を目指し, インターネット上で探したtipsを導入，試していく
 
-##モデルの管理
+## モデルの管理
 
 今のところはパラメータが違ったら別モデルとして作成する
 modelはclass model(): とし定義してその中に書く
 
-##実験の管理
+## 実験の管理
 
-###実験設定の管理
+### 実験設定の管理
 
 argparse x yaml x dataclass
 
 
-##log, 実験結果の管理
+## log, 実験結果の管理
+
 <ID>_<試行回数>_<yamlファイル名>_<実験内容がわかる名前>
 
-##拡張アイディア
+## 拡張アイディア
 
 - [x] モデルを指定したときに動的なimportをしたい
  
 importlib
 
-##参考にしたサイト
+## 参考にしたサイト
 
 https://blog.cormoran-web.com/blog/2019/12/ml-reserch-for-iq1/
 
 https://www.slideshare.net/cvpaperchallenge/cvpaperchallenge-tips-241914101
 
-##ディレクトリの説明
+## ディレクトリの説明
 
 構造はtreeコマンドで描画
 
